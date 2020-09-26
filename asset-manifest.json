@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PacingCheck-React/static/css/main.5feec2d3.chunk.css",
+    "main.js": "/PacingCheck-React/static/js/main.994d2fa4.chunk.js",
+    "main.js.map": "/PacingCheck-React/static/js/main.994d2fa4.chunk.js.map",
+    "runtime-main.js": "/PacingCheck-React/static/js/runtime-main.87e49050.js",
+    "runtime-main.js.map": "/PacingCheck-React/static/js/runtime-main.87e49050.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/PacingCheck-React/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2e5dd8d7.chunk.js": "/PacingCheck-React/static/js/2.2e5dd8d7.chunk.js",
+    "static/js/2.2e5dd8d7.chunk.js.map": "/PacingCheck-React/static/js/2.2e5dd8d7.chunk.js.map",
+    "index.html": "/PacingCheck-React/index.html",
+    "precache-manifest.52c5882375f5c3312de21a3173c57ee2.js": "/PacingCheck-React/precache-manifest.52c5882375f5c3312de21a3173c57ee2.js",
+    "service-worker.js": "/PacingCheck-React/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/PacingCheck-React/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5feec2d3.chunk.css.map": "/PacingCheck-React/static/css/main.5feec2d3.chunk.css.map",
+    "static/js/2.2e5dd8d7.chunk.js.LICENSE.txt": "/PacingCheck-React/static/js/2.2e5dd8d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87e49050.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2e5dd8d7.chunk.js",
+    "static/css/main.5feec2d3.chunk.css",
+    "static/js/main.994d2fa4.chunk.js"
+  ]
+}
