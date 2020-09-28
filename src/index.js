@@ -7,12 +7,13 @@ import axios from 'axios';
 import {Auth0Provider} from "@auth0/auth0-react";
 
 // FIXME config it
-// https://packingcheck-api-lite.firebaseio.com/
 // axios.defaults.baseURL = 'http://my-json-server.typicode.com/nanfang/fakejson';
-const API_URL = 'http://localhost:8080/v1';
+// https://packingcheck-api-lite.firebaseio.com/
+
 const API_IDENTIFIER = 'https://api.packingcheck.com/';
 const DOMAIN = "packingcheck.auth0.com";
-axios.defaults.baseURL = API_URL
+
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
 ReactDOM.render(
     <Auth0Provider

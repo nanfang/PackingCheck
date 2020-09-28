@@ -8,6 +8,7 @@ import Welcome from "../components/Welcome/Welcome";
 const App = () => {
     const {isAuthenticated} = useAuth0();
     const content = isAuthenticated? <Packs/>: <Welcome/>;
+    console.log(process.env);
     return (
         <div className="App">
             <Layout>
