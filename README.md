@@ -1,4 +1,6 @@
 Monorepo for PackingCheck (packingcheck.com)
+- src (react code)
+- api (backend api)
 
 ---------------------------------------
 =========Auto genenerate by create-react-app=========
