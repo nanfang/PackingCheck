@@ -8,7 +8,7 @@ from pk.models import Pack, Item
 class PackType(DjangoObjectType):
     class Meta:
         model = Pack
-        fields = ("id", "name", "user", "items")
+        fields = ("id", "name", "items")
 
 
 class ItemType(DjangoObjectType):
@@ -18,11 +18,12 @@ class ItemType(DjangoObjectType):
 
 
 class Query(graphene.ObjectType):
-    packs_by_username = graphene.List(PackType, username=graphene.String(required=True))
+    packs = graphene.List(PackType)
 
-    def resolve_packs_by_username(root, info, username):
+    def resolve_packs(self, info):
         # We can easily optimize query count in the resolve method
-        # user = User.objects.get_by_natural_key(username)
+        # FIXME: load username by auth token
+        username = 'nanfang'
         return list(Pack.objects.filter(user__username=username).all())
 
 

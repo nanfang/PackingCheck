@@ -30,8 +30,6 @@ class Packs extends Component {
             .then(response => {
                 this.setState({packs: response.data})
             });
-
-
     }
 
     loadItems = (packId) => {
